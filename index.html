@@ -4,8 +4,25 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Password Generator</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <h1>Password Generator</h1>
+    <div>
+      <h1>Generate a <span>random password</span></h1>
+      <p>Never use an insecure password again</p>
+      <p id="password-length-el"></p>
+      <input id="input-el" placeholder="Enter Password length" type="number" />
+      <button id="generate-btn">Generate Password</button>
+      <button id="upper-case-toggle-btn">Upper Case</button>
+      <button id="lower-case-toggle-btn">Lower Case</button>
+      <button id="symbols-toggle-btn">Symbols</button>
+      <button id="numbers-toggle-btn">Numbers</button>
+    </div>
+    <div>
+      <p id="password-one-el"></p>
+      <p id="password-two-el"></p>
+    </div>
+
+    <script src="index.js"></script>
   </body>
 </html>
